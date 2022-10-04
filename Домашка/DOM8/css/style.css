@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    background: #e5e5e5;
+}
+h2{
+    margin-bottom: 40px;
+}
+section {
+    margin-top: 50px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 800px;
+}
+.columns1 {
+    grid-area: columns1;
+  }
+  
+  .columns2 {
+    grid-area: columns2;
+  }
+  
+  .columns3 {
+    grid-area: columns3;
+  }
+  
+  .columns4 {
+    grid-area: columns4;
+  }
+  
+  .columns5 {
+    grid-area: columns5;
+  }
+  
+  .columns6 {
+    grid-area: columns6;
+  }
+  
+  .columns7 {
+    grid-area: columns7;
+  }
+  
+  .columns8 {
+    grid-area: columns8;
+  }
+  
+  .columns9 {
+    grid-area: columns9;
+  }
+  
+  .columns01 {
+    grid-area: columns01;
+  }
+  
+  .columns02 {
+    grid-area: columns02;
+  }
+  
+  .columns03 {
+    grid-area: columns03;
+  }
+  
+  .columns04 {
+    grid-area: columns04;
+  }
+  
+  .columns05 {
+    grid-area: columns05;
+  }
+  
+  .columns6 {
+    grid-area: columns06;
+  }
+  
+  .columns07 {
+    grid-area: columns07;
+  }
+  
+  .columns08 {
+    grid-area: columns08;
+  }
+  
+  .columns09 {
+    grid-area: columns09;
+  }
+  .wrapper .main__conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+  .wrapper .main__conteiner-one{
+    width: 360px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "item01 item02"
+        "item03 item03"
+        "item04 item05"
+        "item06 item06"
+        "item07 item07"
+        "item08 item08"
+        "item09 item09";
+  }

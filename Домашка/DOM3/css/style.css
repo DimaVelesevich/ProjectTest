@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", "Open Sans";
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    padding: 62px;
+    text-transform: uppercase;
+}
+.separator {
+    border: 1px solid red;
+    width: 170px;
+    margin: 0 auto 40px;
+}
+.subtitle {
+    text-align: center;
+    color: #86878b;
+}
+
+.awesome__info {
+    display: flex;
+    padding: 114px 0 54px 0;
+}
+
+.ico {
+    width: 92px;
+    height: 92px;
+    border: 2px solid #ec7979;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+.ico-lamp {
+    background-image: url(/Домашка/DOM3/images/1.svg);
+}
+.ico-key {
+    background-image: url(/Домашка/DOM3/images/2.svg);
+}
+.ico-light {
+    background-image: url(/Домашка/DOM3/images/3.svg);
+}
+.awesome__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.awesome__title {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Open Sans";
+    line-height: 33px;
+    padding-bottom: 30px;
+    
+}

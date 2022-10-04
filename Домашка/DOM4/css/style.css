@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #ffffff;
+}
+h2 {
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    margin-bottom: 45px;
+}
+h5 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+a {
+    
+    text-decoration: none;
+    
+}
+.section-option {
+    width: 100%;
+    height: 100%;
+    background-image: url(/Домашка/DOM4/images/Wheel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 135px 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.wrapper {
+    margin: 0 auto;
+}
+.option-element {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.option_element__item {
+    width: 235px;
+}
+.option-element__item:nth-child(2) {
+    margin: 0px 90px 0px 90px;
+}
+.option-element__ico {
+    width: 76px;
+    height: 76px;
+    border: 0px;
+    background-color: #49a8aa;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    
+}
+.option-element__ico:hover {
+    background-color: #979797;
+}
+.ico-pen {
+    background-image: url(/Домашка/DOM4/images/Pencil.png);
+}
+.ico-game {
+    background-image: url(/Домашка/DOM4/images/game.png);
+}
+.ico-upload {
+    background-image: url(/Домашка/DOM4/images/Upload.png);
+}
+.section-button {
+    width: 235px;
+    background: #FFC80A;
+    border-radius: 49.5px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    display: block;
+}
+.section-button:hover{
+    background-color: red;
+    transition-duration: 0.8s;
+}

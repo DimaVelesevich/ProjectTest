@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.avatar {
+    background-color: red;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.body1 {
+    width: 360px;
+    height: 390px;
+    position: relative;
+    background-color: aqua;
+    
+}
+.body-one {
+    background-image: url(/Домашка/DOM6/images/byellow.svg);
+}
+.body {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    
+}
+.eyes-one{
+    background-image: url(/Домашка/DOM6/images/eyes1.svg);
+    
+}
+.eyes{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 115px;
+    left: 137px;
+}
+.hair-one{
+background-image: url(/Домашка/DOM6/images/hair01.svg)
+}
+.hair{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:35px;
+    
+}
+.mouse-one{
+    background-image: url(/Домашка/DOM6/images/mouse1.svg);
+
+}
+.mouse{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 180px;
+    left: 147px;
+}
+.nose-one{
+    background-image: url(/Домашка/DOM6/images/nose1.svg);
+}
+.nose{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 120px;
+    left: 167px
+}
+.short-one{
+    background-image: url(/Домашка/DOM6/images/hoodie1.svg);
+}
+.short{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 215px;
+    left: 20px;
+}
+.body2{
+    width: 360px;
+    height: 390px;
+    position: relative;
+    background-color: pink;
+}
+.glass-two{
+    background-image: url(/Домашка/DOM6/images/glasses2.svg);
+}
+.glass{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 95px;
+    left: 105px;
+}
+.body-two{
+    background-image: url(/Домашка/DOM6/images/bblack.svg);
+}
+.eyes-two{
+    background-image: url(/Домашка/DOM6/images/eyes2.svg);
+}
+.hair-two{
+    background-image: url(/Домашка/DOM6/images/hair02.svg);
+}
+.mouse-two{
+    background-image: url(/Домашка/DOM6/images/mouse2.svg);
+}
+.nose-two{
+    background-image: url(/Домашка/DOM6/images/nose2.svg);
+}
+.short-two{
+    background-image: url(/Домашка/DOM6/images/hoodie2.svg);
+}
+.body3{
+    width: 360px;
+    height: 390px;
+    position: relative;
+    background-color: yellow;
+    
+}
+.body-three{
+    background-image: url(/Домашка/DOM6/images/bpale.svg);
+}
+.eyes-three{
+    background-image: url(/Домашка/DOM6/images/eyes3.svg);
+}
+.hair-three{
+    background-image: url(/Домашка/DOM6/images/hair3.svg);
+}
+.mouse-three{
+    background-image: url(/Домашка/DOM6/images/mouse3.svg);
+}
+.nose-three{
+    background-image: url(/Домашка/DOM6/images/nose3.svg);
+}
+.short-three{
+    background-image: url(/Домашка/DOM6/images/hoodie3.svg);
+}
+.mousetache-three{
+    background-image: url(/Домашка/DOM6/images/moustache3.svg);
+}
+.mousetache{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 150px;
+    left: 98px;
+
+}

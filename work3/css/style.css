@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+}
+.ribbons-wrapper {
+    width: 750px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 100px auto;
+}
+
+.ribbon {
+    width: 350px;
+    height: 200px;
+    background: url(../img/snow.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    position: relative;
+}
+.ribbon1,
+.ribbon2,
+.ribbon3,
+.ribbon4,
+.ribbon5,
+.ribbon6 {
+    position: absolute;
+}
+/*RIBBON1*/
+
+.ribbon1::after,
+.ribbon1::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+}
+.ribbon1 .angle::after,
+.ribbon1 .anlge::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+}
+
+.ribbon1 {
+    width: 110px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    right: 10px;
+    top: -10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.ribbon1::after {
+    border-top: 10px solid red;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    top: 100%;
+}
+.ribbon1 .angle {
+    width: 100%;
+    height: 100%;
+}
+.ribbon1 .angle::before {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    right: 100%;
+    border-radius: 0 0 0 0;
+}
+.ribbon1 .angle::after {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 255, 76);
+    top: 0;
+    right: 100%;
+    border-radius: 50% 50% 0 0;
+}
+/*RIBBON 2*/
+.ribbon2::after,
+.ribbon2::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+}
+.ribbon2 {
+    width: 60px;
+    height: 114px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 16px;
+    left: 30px;
+    top: -10px;
+    border-top-left-radius: 5px;
+}
+.ribbon2::after {
+    border-bottom: 10px solid black;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -10px;
+    right: -10px;
+}
+.ribbon2::before {
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid orange;
+    border-right: 30px solid orange;
+    border-left: 30px solid orange;
+    bottom: -60px;
+}
+
+/*RIBBON 3*/
+.ribbon3::after,
+.ribbon3::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+}
+
+.ribbon3 {
+    width: 150px;
+    height: 50px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25px;
+    left: -10px;
+}
+.ribbon3::before {
+    border-right: 10px solid rgb(0, 0, 0);
+    border-top: 10px solid transparent;
+    top: -10px;
+    left: 0;
+}
+.ribbon3::after {
+    border-left: 25px solid purple;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    right: -25px;
+}
+
+/*RIBBON4*/
+
+.ribbon4::after,
+.ribbon4::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+}
+.ribbon4 {
+    width: 120px;
+    height: 40px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+    box-shadow: 0 5px 8px -3px rgb(50, 50, 50, 0.75);
+    top: 20px;
+    left: 0px;
+}
+.ribbon4::before {
+    width: 15px;
+    height: calc(100% + 15px);
+    right: 100%;
+    top: 0;
+    background-color: lightskyblue;
+    border-radius: 10px 0 0 10px;
+}
+.ribbon4::after {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(180, 219, 243);
+    right: 100%;
+    top: 100%;
+    border-radius: 50% 0 0 50%;
+}
+
+/*RIBON5*/
+.ribbon5::after,
+.ribbon5::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+}
+
+.ribbon5 {
+    width: calc(100% + 20px);
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -10px;
+    top: 25px;
+}
+.ribbon5::before {
+    border-right: 10px solid rgb(202, 136, 12);
+    border-bottom: 10px solid transparent;
+    left: 0;
+    top: 100%;
+}
+.ribbon5::after {
+    border-left: 10px solid rgb(202, 136, 12);
+    border-bottom: 10px solid transparent;
+    right: 0;
+    top: 100%;
+}
+
+/*RIBBON6*/
+.ribbon6::after,
+.ribbon6::before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+}
+
+.ribbon6 {
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -50px;
+    top: 25px;
+    transform: rotate(45deg);
+    font-size: 18px;
+
+    z-index: 3;
+
+}
+.ribbon__hiden {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    bottom: 10px;
+    position: absolute;
+    left: 10px;
+    
+}
+.ribbon__hiden::before {
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    border-top-left-radius: 68%;
+    top: 0;
+    right: 112px;
+    
+}
+.ribbon__hiden::after {
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    border-top-left-radius: 68%;
+    right: 0;
+    top: 112px;
+    z-index: 2;
+}
+.ribbon6::after{
+    width: 100%;
+    height: calc(100% - 10px - 2px);
+    top: 5px;
+    border-top: 1px dashed yellow;
+    border-bottom: 1px dashed yellow;
+}

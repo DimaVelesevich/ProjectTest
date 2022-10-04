@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.stylish {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/city.png);
+    height: 442px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    text-transform: uppercase;
+}
+.separator {
+    border: 1px solid #ffffff;
+    width: 170px;
+    margin: 62px auto 40px;
+}
+.subtitle {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 75px;
+}
+
+.stylish__but {
+    text-align: center;
+    width: 300px;
+    border: 2px solid #ffffff;
+    margin: 0 auto;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.stylish__but:hover{
+    background-color: blue;
+    
+    
+}
+
+
+

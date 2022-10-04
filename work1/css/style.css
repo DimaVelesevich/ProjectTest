@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 300px 0;
+    row-gap: 10px;
+    background-color: black;
+    margin-bottom: 100px;
+}
+.ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.one {
+    animation: leftside 1s 1s infinite;
+}
+.three {
+    animation: leftside 1s 1.3s infinite;
+}
+.five {
+    animation: leftside 1s 1.6s infinite;
+}
+.seven {
+    animation: leftside 1s 2s infinite;
+}
+.two {
+    animation: rightside 1s 1.3s infinite;
+}
+.four {
+    animation: rightside 1s 1.6s infinite;
+}
+.six {
+    animation: rightside 1s 1.9s infinite;
+}
+@keyframes leftside {
+    0% {
+        transform: translateX(-50%);
+    }
+    50% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes rightside {
+    0% {
+        transform: translateX(500%);
+    }
+    50% {
+        transform: translateX(-500%);
+    }
+    100% {
+        transform: translateX(500%);
+    }
+}
+
+/*ЛЕНТЫ*/
+.container{
+    width: 400px;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    
+    margin-bottom: 40px;
+    position: relative;
+}
+.container::before,
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+    position: absolute;
+}.container:after{
+    border-top: 20px solid blue;
+    border-bottom: 20px solid blue;
+    border-left: 20px solid blue;
+    border-right: 20px solid transparent;
+    left: 100%;
+    top: -15%;
+}
+.container::before{
+    border-top: 20px solid blue;
+    border-bottom: 20px solid blue;
+    border-left: 20px solid transparent;
+    border-right: 20px solid blue;
+    right: 100%;
+    top: -15%;
+}
+.block{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.block::before,
+.block::after{
+    display: block;
+    content: "";
+    clear: both;
+    position: absolute;
+}
+.block::after{
+    border-top: 8px solid transparent;
+    border-left: 8px solid black;
+    border-right: 8px solid transparent;
+    left: 0%;
+    top: -15%;
+    
+}
+.block::before{
+    border-top: 8px solid transparent;
+    border-right: 8px solid black;
+    border-left: 8px solid transparent;
+    right: 0%;
+    top: -15%;
+    
+}
+
+
+

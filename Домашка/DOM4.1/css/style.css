@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+html, body{
+    height: 100%;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section{
+    margin-bottom: 60px;
+}
+.header{
+    font-family: 'Open Sans', sans-serif;
+    height: 76px;
+    background-color: black;
+    color: white;
+}
+.header .wrapper{
+    display: flex;
+    justify-content: space-around
+}
+.menu{
+    width: 570px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a{
+    padding: 25.5px;
+}
+.menu a:hover{
+    background-color: #EC7979;
+    cursor: pointer;
+}
+.menu a:active{
+    background-color: #AB4949;
+}
+
+.section__banner{
+    padding: 0;
+    width: 100%;
+    height: 1026px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/Домашка/DOM4.1/images/NY.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
